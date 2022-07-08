@@ -9,9 +9,11 @@ You will need:
 
 - Raspberry Pi 4
 - Raspberry Monitor Keyboard and Mouse ( In case you plan to use it with a monitor setup)
+-Camera Module
 
-
-- RTJ Cable ( In case you're using a remote setup)
+In case you're using Raspi-Headless:
+-Raspberry Pi 4
+- RTJ Cable 
 - PuTTy
 - VNC Viewer
 - Camera Module
