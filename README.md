@@ -60,9 +60,9 @@ pip install numpy--upgrade
 
 # Choice of Model
 
-*The model choice will depend on your implementation case, expected accuracy and density of the models. Many of the PyTorch models come with quantization.
+* The model choice will depend on your implementation case, expected accuracy and density of the models. Many of the PyTorch models come with quantization.
 
-*For optimal performance we want a model that’s quantized and fused. Quantized means that it does the computation using int8 which is much more performant than the standard float32 math. Fused means that consecutive operations have been fused together into a more performant version where possible. Commonly things like activations (ReLU) can be merged into the layer before (Conv2d) during inference.
+* For optimal performance we want a model that’s quantized and fused. Quantized means that it does the computation using int8 which is much more performant than the standard float32 math. Fused means that consecutive operations have been fused together into a more performant version where possible. Commonly things like activations (ReLU) can be merged into the layer before (Conv2d) during inference.
 
 The aarch64 version of pytorch requires using the qnnpack engine.
 ```
