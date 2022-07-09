@@ -80,7 +80,8 @@ torch.backends.quantized.engine = 'qnnpack'
 
 You will need ```Tensor Flow``` and ```ONNX```
 
-Which you can get by 
+Which you can get by:
+
 ```
 pip install tensorflow
 pip install onnxruntime
