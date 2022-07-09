@@ -76,3 +76,18 @@ torch.backends.quantized.engine = 'qnnpack'
 * 
 * Once all is set up, refer to ```infer.py``` , I used Transfer Learning to train my custom data set which can be found in another Repository ```Invisible_Fence_830``` that contains the data used in this study. However, in this study a pretrained ResNet18 is used to train on the custom data, the weights for which can be found here, however, data can similarly be processed and a custom model can be used in its stead. 
 
+# Importing Models across ONNX and Tensorflow
+
+You will need ```Tensor Flow``` and ```ONNX```
+
+Which you can get by 
+```
+pip install tensorflow
+pip install onnxruntime
+pip install git
+git clone https://github.com/onnx/onnx-tensorflow.git
+cd onnx-tensorflow
+pip install -e .
+
+```
+
