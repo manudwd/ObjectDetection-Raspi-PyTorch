@@ -87,8 +87,21 @@ pip install tensorflow
 pip install onnxruntime
 pip install git
 git clone https://github.com/onnx/onnx-tensorflow.git
-cd onnx-tensorflow
+cd onnx-tensorflown 
 pip install -e .
 
 ```
+
+# Appendix 
+
+## Cannot show desktop in VNC:
+1. Set screen resolution to highest
+2. Set boot to desktop 
+3. Use config file in main
+
+## Cannot use pytorch
+1. Use need 64 bit raspbian
+
+## Cannot use camera module
+1. Disable legacy camera and check camera port for proper connection
 
